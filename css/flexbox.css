@@ -91,8 +91,7 @@
 
 /* MENU P/ DESKTOP */
 
-
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
     .menu__container {
         width: 239px;
         overflow: scroll;
@@ -104,5 +103,12 @@
     }
     .menu__lista {
         height: auto;
+        padding: 20px 17px 20px 17px;
+        gap: 15px;
     }
-} */
+    .menu__itens {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+}
